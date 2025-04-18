@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <style>
+        table,
+        
+        td,
+
+        th {
+            border: 1px solid black ;
+            border-collapse: collapse;
+            padding: 5px;
+
+
+        }
+        table {
+            width: 100%; 
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Página de Inicio de Sesión</h1>
+    <p>Por favor, ingrese su nombre de usuario y contraseña para iniciar sesión. Asegúrese de que sus datos sean correctos.</p>
+    <form action="/login" method="post">
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <div>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Recordar mis datos</label>
+        </div>
+        
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+</body>
+</html>

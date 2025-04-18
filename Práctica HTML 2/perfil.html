@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Perfil</title>
+    <style>
+        table,
+        
+        td,
+
+        th {
+            border: 1px solid black ;
+            border-collapse: collapse;
+            padding: 5px;
+
+
+        }
+        table {
+            width: 100%; 
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Página de Perfil y Datos Personales</h1>
+    <form>
+        <label for="role">Rol:</label>
+        <input type="text" id="role" name="role" value="ESTUDIANTE" readonly>
+        
+        <label for="fullname">Nombre Completo:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" min="1" required>
+        
+        
+        <label for="nationality">Nacionalidad:</label>
+        <select id="nationality" name="nationality" required>
+            <option value="argentina">Argentina</option>
+            <option value="chile">Chile</option>
+            <option value="colombia">Colombia</option>
+            <option value="peru">Perú</option>
+            <option value="mexico">México</option>
+        </select>
+        
+        <label for="employment">Condición Laboral:</label>
+        <select id="employment" name="employment" required>
+            <option value="desempleado">Desempleado</option>
+            <option value="busqueda">En Búsqueda Laboral</option>
+            <option value="part_time">Trabajo Part Time</option>
+            <option value="full_time">Trabajo Full Time</option>
+        </select>
+        <br><br>
+
+        <fieldset>
+            <h3>Gustos personales</h3>
+            
+            <label for="music">Gustos Musicales:</label>
+            <input type="text" id="music" name="music">
+            
+            <label for="food">Comidas Preferidas:</label>
+            <select id="food" name="food">
+                <option value="pizza">Pizza</option>
+                <option value="sushi">Sushi</option>
+                <option value="pasta">Pasta</option>
+                <option value="ensalada">Ensalada</option>
+            </select>
+        </fieldset>
+        
+        <div>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Recordar mis datos</label>
+        </div>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
