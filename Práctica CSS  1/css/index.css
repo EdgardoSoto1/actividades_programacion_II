@@ -22,7 +22,8 @@ p {
 ul {
     margin-left: 100px; 
     padding: 20px; 
-    border: 2px solid blue; 
+    border: 2px solid blue;
+    max-width: 40%; 
 }
 
 ul li {
@@ -40,4 +41,15 @@ ul li a {
     color: orange; 
     text-decoration: underline; 
 }
+
+
+.verde {
+    color: green; 
+}
+
+.verde a {
+    color: green; 
+    text-decoration: underline;
+}
+
 
