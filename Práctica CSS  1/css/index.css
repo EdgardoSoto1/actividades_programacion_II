@@ -25,6 +25,7 @@ ul {
     padding: 20px; 
     border: 2px solid blue;
     max-width: 40%; 
+    list-style-type: none;
 }
 
 ul li {
