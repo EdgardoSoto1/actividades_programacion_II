@@ -54,3 +54,14 @@ nav {
 .nav-item:hover a{
     color: black;
 }
+
+.login a {
+    display: inline-block;
+    font-weight: bold; 
+    color: #ff0000; 
+    
+}
+
+.login a:hover {
+    color: #ffcc00; 
+}
