@@ -20,16 +20,22 @@ nav {
     justify-content: space-between;
     display: flex;
     width: 100%;
-    background-color: #007700;
+    background-color: #494439;
     padding: 30px 10px;
 
 }
 
 .logo {
-    color: #fff;
+    color: rgb(98, 172, 137);
     font-weight: 700;
     display: inline-block;
 
+}
+
+.logo i {
+    margin-left: 10px;
+    font-size: 24px;
+    color: rgb(98, 172, 137);
 }
 
 
@@ -37,7 +43,7 @@ nav {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: #fff;
+    color: rgb(98, 172, 137);
 
 }
 
@@ -47,7 +53,7 @@ nav {
 }
 
 .nav-item:hover {
-    background-color: aquamarine;
+    background-color: rgb(228, 226, 210);
 
 }
 
@@ -57,13 +63,10 @@ nav {
 
 .login a {
     display: inline-block;
-    border: 2px solid white;
+    border: 2px outset rgb(98, 172, 137);
 }
 
 .login a:hover {
     color: black; 
 }
 
-.logo i {
-    margin-left: 10px;
-}
